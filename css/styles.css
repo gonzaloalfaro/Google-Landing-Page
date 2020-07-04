@@ -139,3 +139,24 @@ main .main-buttons button:hover {
     color: #222;
     background-color: #f8f8f8
 }
+
+main .main-languages {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+main .main-languages p {
+    margin-top: 25px;
+}
+
+main .main-languages a {
+    margin-left: 5px;
+    margin-right: 0px;
+    color: #1a0dab;
+}
+
+main .main-languages a:hover {
+    text-decoration: underline;
+    color: #1a0dab;
+}
